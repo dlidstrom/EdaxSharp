@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,6 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bit.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="Const.cs" />
+    <Compile Include="CountLastFlip.cs" />
+    <Compile Include="Flip.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Hash.cs" />
+    <Compile Include="HashCode.cs" />
+    <Compile Include="Move.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util.cs" />
   </ItemGroup>
