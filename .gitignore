@@ -1,0 +1,9 @@
+*.user
+*.suo
+Edax.Console/bin
+Edax.Console/obj
+Edax.Lib/bin
+Edax.Lib/obj
+Edax.Test/TestResult.xml
+Edax.Test/bin
+Edax.Test/obj
